@@ -1,0 +1,28 @@
+public class Team {                                      (0/10 in Zylabs)
+    private String teamName;
+    private int teamWins;
+    private int teamLosses;
+    
+    public void setTeamName(String name) {
+        teamName = name;
+    }
+    public void setTeamWins(int wins) {
+        teamWins = wins;
+    }
+    public void setTeamLosses(int losses) {
+        teamLosses = losses;
+    }
+    public String getTeamName() {
+        return teamName;
+    }
+    public int getTeamWins() {
+        return teamWins;
+    }
+    public int getTeamLosses() {
+        return teamLosses;
+    }
+    public String getWinPercentage() {
+        double winPercentage = (double) teamWins / (teamWins + teamLosses);
+        }
+    }
+}
